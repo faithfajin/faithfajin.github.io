@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC News</title>
+    <link rel="icon" href="Icon.ico" type="image/x-icon">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+</head>
+<body>
+    <nav>
+        <h1>BBC News</h1>
+        <div id="menu-icon" class="menu-icon">
+            <i class="ph ph-list"></i>
+        </div>
+        <ul id="list" class="hidden">
+            <a href="#">👤 Sign In</a>
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Sport</a>
+            <a href="#">Reel</a>
+            <a href="#">Worklife</a>
+            <a href="#">Travel</a>
+            <a href="#">Future</a>
+            <a href="#">---</a>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="promotion-container">
+            <img class="promotion" src="promotion-image.jpg" alt="Promotion">
+        </div>
+        <button class="toggle-button" onclick="toggleLanguage()">Bahasa</button>
+    </div>
+    <div class="headline-container">
+        <div class="headlinekanan">
+            <h2 class="translate" data-english="Welcome to BBC.com" data-bahasa="Selamat Datang di BBC.com">Welcome to BBC.com</h2>
+            <img src="headline1-image.png" alt="Headline 1">
+        </div>
+        <div class="headlinekiri">
+            <h2 class="translate" data-english="Wednesday, 30 August" data-bahasa="Rabu, 30 Agustus">Wednesday, 30 August</h2>
+            <img src="headline2-image.png" alt="Headline 2">
+        </div>
+    </div>
+    <div class="news-container">
+        <div class="headline1">
+            <h2 class="translate" data-english="News" data-bahasa="Berita">News</h2>
+            <img src="berita 1.png" alt="Image 1">
+            <div class="info">
+                <h3 class="translate" data-english="Idalia strengthens to 'catastrophic' Category 4 hurricane" data-bahasa="Idalia menguat terhadap badai Kategori 4 yang 'bencana'">Idalia strengthens to 'catastrophic' Category 4 hurricane</h3>
+                <p class="translate" data-english="Fierce winds, Lashin rain and life-threatening storm surges are forecast to hit Florida." data-bahasa="Angin kencang, hujan Lashin, dan gelombang badai yang mengancam jiwa diperkirakan akan melanda Florida.">Fierce winds, Lashin rain and life-threatening storm surges are forecast to hit Florida.</p>
+                <h4>︳US & CANADA</h4>
+            </div>
+        </div>
+        <div class="headline2">
+            <img src="berita 2.png" alt="Image 2">
+            <div class="info">
+                <h3 class="translate" data-english="Australia to hold historic referendum in October" data-bahasa="Australia akan mengadakan referendum bersejarah pada bulan Oktober">Australia to hold historic referendum in October</h3>
+                <p class="translate" data-english="Voters will consider whether to recognize Indigenous people in the country's constitution." data-bahasa="Para pemilih akan mempertimbangkan apakah akan mengakui masyarakat adat dalam konstitusi negara tersebut.">Voters will consider whether to recognize Indigenous people in the country's constitution.</p>
+                <h4>︳AUSTRALIA</h4>
+            </div>
+        </div>
+        <div class="headline3">
+            <img src="berita 3.png" alt="Image 3">
+            <div class="info">
+                <h3 class="translate" data-english="Nagorno-Karabakh: 'People are fainting in bread queues'" data-bahasa="Nagorno-Karabakh: 'Orang-orang pingsan saat mengantri roti'">Nagorno-Karabakh: 'People are fainting in bread queues'</h3>
+                <p class="translate" data-english="Azerbaijan's nine-month blockade of disputed territory Nagorno-Karabakh takes its toll on residents." data-bahasa="Blokade Azerbaijan selama sembilan bulan atas wilayah sengketa Nagorno-Karabakh menimbulkan dampak buruk pada penduduk.">Azerbaijan's nine-month blockade of disputed territory Nagorno-Karabakh takes its toll on residents.</p>
+                <h4>︳EUROPE</h4>
+            </div>
+        </div>
+    </div>
+    <div class="news-container">
+        <div class="headline1">
+            <h2 class="translate" data-english="〡Sports" data-bahasa="〡Olahraga">〡Sports</h2>
+            <img src="berita 4.png" alt="Image 1">
+            <div class="info">
+                <h3 class="translate" data-english="EFL Cup reaction, football news & transfers latest" data-bahasa="Reaksi Piala EFL, berita & transfer sepak bola terkini">EFL Cup reaction, football news & transfers latest</h3>
+                <p class="translate" data-english="Reaction to Tuesday night's EFL Cup second-round action, including wins for Fulham over Tottenham and Salford City against Leeds, plus effect. transfers latest" data-bahasa="Reaksi terhadap aksi putaran kedua Piala EFL Selasa malam, termasuk kemenangan Fulham atas Tottenham dan Salford City melawan Leeds, plus efeknya. transfer terbaru">Reaction to Tuesday night's EFL Cup second-round action, including wins for Fulham over Tottenham and Salford City against Leeds, plus effect. transfers latest</p>
+                <h4>︳FOOTBALL</h4>
+            </div>
+        </div>
+        <div class="headline2">
+            <img src="berita 5.png" alt="Image 2">
+            <div class="info">
+                <h3 class="translate" data-english="England women's match fees increased to equal men" data-bahasa="Biaya pertandingan wanita Inggris meningkat setara dengan pria">England women's match fees increased to equal men</h3>
+                <p class="translate" data-english="England's men and women will be paid the same match fees for internationals with immediate" data-bahasa="Pria dan wanita Inggris akan dibayar biaya pertandingan yang sama untuk pertandingan internasional dengan segera">England's men and women will be paid the same match fees for internationals with immediate</p>
+                <h4>︳CRICKET</h4>
+            </div>
+        </div>
+        <div class="headline3">
+            <img src="berita 6.png" alt="Image 3">
+            <div class="info">
+                <h3 class="translate" data-english="'It's not working' -VAR 'farce' on US Open debut" data-bahasa="'Ini tidak berhasil' -VAR 'lelucon' pada debut AS Terbuka">'It's not working' -VAR 'farce' on US Open debut</h3>
+                <p class="translate" data-english="video-assist review system at the US Open - but it is labelled a 'farce' by Andy Murray after the technology malfunctions." data-bahasa="sistem peninjau bantuan video di AS Terbuka - tetapi sistem ini diberi label 'lelucon' oleh Andy Murray setelah teknologinya tidak berfungsi.">video-assist review system at the US Open - but it is labelled a 'farce' by Andy Murray after the technology malfunctions.</p>
+                <h4>︳TENNIS</h4>
+            </div>
+        </div>
+    </div>
+    <div class="news-container">
+        <div class="headline1">
+            <h2 class="translate" data-english="〡Asia News" data-bahasa="〡Berita Asia">〡Asia News</h2>
+            <img src="berita 7.png" alt="Image 1">
+            <div class="info">
+                <h3 class="translate" data-english="Kim leaves on armoured train for visit to Putin" data-bahasa="Kim berangkat dengan kereta lapis baja untuk mengunjungi Putin">Kim leaves on armoured train for visit to Putin</h3>
+                <p class="translate" data-english="Kim Jong Un waves from his private train before leaving on a trip to the Russian far east." data-bahasa="Kim Jong Un melambaikan tangan dari kereta pribadinya sebelum berangkat ke timur jauh Rusia.">Kim Jong Un waves from his private train before leaving on a trip to the Russian far east.</p>
+                <h4>︳KOREA</h4>
+            </div>
+        </div>
+        <div class="headline2">
+            <img src="berita 8.png" alt="Image 2">
+            <div class="info">
+                <h3 class="translate" data-english="Venice to vote on €5 a day fee for tourists" data-bahasa="Venesia akan memilih biaya €5 per hari untuk wisatawan">Venice to vote on €5 a day fee for tourists</h3>
+                <p class="translate" data-english="The charge - which will apply to all visitors aged over 14 - is designed to tackle soaring tourism." data-bahasa="Tarif tersebut – yang akan berlaku untuk semua pengunjung berusia di atas 14 tahun – dirancang untuk mengatasi lonjakan pariwisata.">The charge - which will apply to all visitors aged over 14 - is designed to tackle soaring tourism.</p>
+                <h4>︳ITALIA</h4>
+            </div>
+        </div>
+        <div class="headline3">
+            <img src="berita 9.png" alt="Image 3">
+            <div class="info">
+                <h3 class="translate" data-english="Children back with Sara grandfather after police raid" data-bahasa="Anak-anak kembali bersama kakek Sara setelah penggerebekan polisi">Children back with Sara grandfather after police raid</h3>
+                <p class="translate" data-english="The five children, taken by police in an afternoon raid, have been returned ahead of a court hearing." data-bahasa="Kelima anak tersebut, yang ditangkap polisi dalam penggerebekan sore hari, telah dikembalikan menjelang sidang pengadilan.">The five children, taken by police in an afternoon raid, have been returned ahead of a court hearing.</p>
+                <h4>︳ARABIA</h4>
+            </div>
+        </div>
+    </div>
+    <div class="stretched-image">
+        <img src="stretched-image.png" alt="Travel Image" class="image">
+        <div class="overlay">
+            <h2>Explore the World</h2>
+            <p>Embark on unforgettable journeys and discover new horizons with our travel coverage.</p>
+            <div class="visit-link">
+                <p>Visit Now ➔</p>
+            </div>
+        </div>
+    </div>
+    <div class="headline-container">
+        <div class="headlinekanan">
+            <h2 class="translate" data-english="Breaking News" data-bahasa="Breaking News">Breaking News</h2>
+            <img src="headline 1 2.png" alt="Headline 1">
+        </div>
+        <div class="headlinekiri">
+            <h2 class="translate" data-english="Wednesday, 30 August" data-bahasa="Rabu, 30 Agustus">Wednesday, 30 August</h2>
+            <img src="headline 2 2.png" alt="Headline 2">
+        </div>
+    </div>
+    <div class="news-container">
+        <div class="headline1">
+            <h2 class="translate" data-english="〡Weekend Reads" data-bahasa="〡Bacaan Akhir Pekan">〡Weekend Reads</h2>
+            <img src="berita 10 1.png" alt="Image 1">
+            <div class="info">
+                <h3 class="translate" data-english="The bomb sensors that found blue whales" data-bahasa="Venesia akan memilih biaya €5 per hari untuk wisatawan">The bomb sensors that found blue whales</h3>
+                <p class="translate" data-english="The aim was to hear rogue nuclear weapons tests. They discovered something else" data-bahasa="Tarif tersebut – yang akan berlaku untuk semua pengunjung berusia di atas 14 tahun – dirancang untuk mengatasi lonjakan pariwisata.">The aim was to hear rogue nuclear weapons tests. They discovered something else</p>
+                <h4>︳FUTURE</h4>
+            </div>
+        </div>
+        <div class="headline2">
+            <img src="berita 11.png" alt="Image 2">
+            <div class="info">
+                <h3 class="translate" data-english="Where to see the Roman Empire's remains" data-bahasa="Venesia akan memilih biaya €5 per hari untuk wisatawan">Where to see the Roman Empire's remains</h3>
+                <p class="translate" data-english="There are few cities better for exploring the legacy of the Roman Empire" data-bahasa="Tarif tersebut – yang akan berlaku untuk semua pengunjung berusia di atas 14 tahun – dirancang untuk mengatasi lonjakan pariwisata.">There are few cities better for exploring the legacy of the Roman Empire</p>
+                <h4>︳TRAVEL</h4>
+            </div>
+        </div>
+        <div class="headline3">
+            <img src="berita 12.png" alt="Image 3">
+            <div class="info">
+                <h3 class="translate" data-english="The 1979 riot that 'killed' disco" data-bahasa="Venesia akan memilih biaya €5 per hari untuk wisatawan">The 1979 riot that 'killed' disco</h3>
+                <p class="translate" data-english="How an anti-disco stunt became an international scandal" data-bahasa="Tarif tersebut – yang akan berlaku untuk semua pengunjung berusia di atas 14 tahun – dirancang untuk mengatasi lonjakan pariwisata.">How an anti-disco stunt became an international scandal</p>
+                <h4>︳CULTURE</h4>
+            </div>
+        </div>
+    </div>
+    <div class="stretched-image">
+        <img src="stretched-image2.png" alt="Travel Image" class="image">
+        <div class="overlay">
+            <h2>Future Plant</h2>
+            <p>Solutions for a sustainable world</p>
+            <div class="visit-link">
+                <p>Visit Future Plant ➔</p>
+            </div>
+        </div>
+    </div>
+    <div class="news-container">
+        <div class="headline1">
+            <h2 class="translate" data-english="〡Asia News" data-bahasa="〡Berita Asia">〡Asia News</h2>
+            <img src="berita 13.png" alt="Image 1">
+            <div class="info">
+                <h3 class="translate" data-english="China sentences Uyghur scholar to life in jail" data-bahasa="Venesia akan memilih biaya €5 per hari untuk wisatawan">China sentences Uyghur scholar to life in jail</h3>
+                <p class="translate" data-english="Rahile Dawut Loses appeal against a charge of endangering state security, a rights group says." data-bahasa="Rahile Dawut Kalah dalam banding atas tuduhan membahayakan keamanan negara, kata sebuah kelompok hak asasi manusia.">Rahile Dawut Loses appeal against a charge of endangering state security, a rights group says.</p>
+                <h4>︳ASIA</h4>
+            </div>
+        </div>
+        <div class="headline2">
+            <img src="berita 14.png" alt="Image 2">
+            <div class="info">
+                <h3 class="translate" data-english="Why an American comic book evokes nostalgia in Indians" data-bahasa="Venesia akan memilih biaya €5 per hari untuk wisatawan">Why an American comic book evokes nostalgia in Indians</h3>
+                <p class="translate" data-english="Archie Comic fans explain why the comic was so popular in the 1990s and whether it can be reinvented." data-bahasa="Penggemar Archie Comic menjelaskan mengapa komik tersebut begitu populer di tahun 1990-an dan apakah komik tersebut dapat diciptakan kembali.">Archie Comic fans explain why the comic was so popular in the 1990s and whether it can be reinvented.</p>
+                <h4>︳INDIA</h4>
+            </div>
+        </div>
+        <div class="headline3">
+            <img src="berita 15.png" alt="Image 3">
+            <div class="info">
+                <h3 class="translate" data-english="Rare 'Dumbo' octopus filmed in deep sea" data-bahasa="Venesia akan memilih biaya €5 per hari untuk wisatawan">Rare 'Dumbo' octopus filmed in deep sea</h3>
+                <p class="translate" data-english="An octopus with ear-like fins resembling stage the Disney character was filmed at a depth of more than 1,000 metres." data-bahasa="Seekor gurita dengan sirip mirip telinga menyerupai karakter Disney difilmkan di kedalaman lebih dari 1.000 meter.">An octopus with ear-like fins resembling stage the Disney character was filmed at a depth of more than 1,000 metres.</p>
+                <h4>︳SCIENCE & ENVIRONMENT</h4>
+            </div>
+        </div>
+        <div class="headline4">
+            <img src="berita 16.png" alt="Image 4">
+            <div class="info">
+                <h3 class="translate" data-english="Trudeau facing cold reality after lonely week on world stage" data-bahasa="Venesia akan memilih biaya €5 per hari untuk wisatawan">Trudeau facing cold reality after lonely week on world stage</h3>
+                <p class="translate" data-english="As tensions with India rise, Canada is calling its friends - but they're not answering." data-bahasa="As tensions with India rise, Canada is calling its friends - but they're not answering.">As tensions with India rise, Canada is calling its friends - but they're not answering.</p>
+                <h4>︳US & CANADA</h4>
+            </div>
+        </div>
+</div>
+    <footer>
+        <p>Explore the BBC:</p>
+        <div class="link-footer">
+            <div class="column">
+                <a href="#">Home</a>
+                <a href="#">Future</a>
+                <a href="#">News</a>
+                <a href="#">Culture</a>
+            </div>
+            <div class="column">
+                <a href="#">Sport</a>
+                <a href="#">TV</a>
+                <a href="#">Sounds</a>
+                <a href="#">Reel</a>
+            </div>
+            <div class="column">
+                <a href="#">Travel</a>
+                <a href="#">Weather</a>
+            </div>
+        </div>
+        <p>&copy;2023 BBC News. All rights reserved.</p>
+    </footer>
+<script src="Jawascript.js"></script>
+</body>
+</html>
